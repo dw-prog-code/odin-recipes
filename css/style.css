@@ -8,10 +8,22 @@ body {
 .card {
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 1px 20px 20px 20px;
 }
 h1 {
     font-family: "Playfair Display", "Times New Roman", serif;
     font-weight: 800;
+}
+.button {
+    display: inline-block;
+    background-color: maroon;
+    color: white;
+    box-shadow: 1px 4px 4px 1px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 16px;
+    margin-left: 16px;
 }
